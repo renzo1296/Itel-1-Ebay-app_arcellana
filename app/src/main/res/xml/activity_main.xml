@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Logo -->
+            <ImageView
+                android:layout_width="241dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo"/>
+
+            <!-- Store Description -->
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="H M offers trendy, affordable clothing for every occasion."
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="start"
+                android:lineSpacingExtra="10dp"
+                android:paddingBottom="24dp"/>
+
+            <!-- Product 1 -->
+            <ImageView
+                android:id="@+id/resort"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/resort_shirt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Regular Fit Crinkled Resort Shirt"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PHP 1,490"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buy1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Buy Now"
+                android:textColor="@android:color/white"/>
+
+            <!-- Product 2 -->
+            <ImageView
+                android:id="@+id/vest"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rib_knit_vest"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rib-Knit Vest Top"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PHP 990"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buy2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Buy Now"
+                android:textColor="@android:color/white"/>
+
+            <!-- Product 3 -->
+            <ImageView
+                android:id="@+id/jacquard_shirt"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jacquard_resort_shirt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jacquard-Weave Resort Shirt"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PHP 1,790"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+
+            <Button
+                android:id="@+id/buy3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Buy Now"
+                android:textColor="@android:color/white"/>
+
+            <!-- Add more products here if needed -->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
